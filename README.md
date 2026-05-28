@@ -21,5 +21,3 @@ sih25068-ml-pipeline/
 ├── README.md                       # Project documentation
 ├── SIH_DWLR_Improved.ipynb         # Main execution pipeline and research notebook
 └── requirements.txt                # Python environment dependencies
-├── requirements.txt                # Python environment dependencies
-└── README.md
