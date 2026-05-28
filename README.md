@@ -17,13 +17,9 @@ This repository contains the core Machine Learning research and modeling pipelin
 
 ```text
 sih25068-ml-pipeline/
-├── data/
-│   └── Barnala_dataset_2.xlsx      # Raw 6-hourly DWLR data (or synthetic fallback)
-├── artifacts/                      # Auto-generated during notebook execution
-│   ├── lgb_barnala.txt             # Serialized LightGBM booster model
-│   ├── feature_cols.json           # Expected feature schema for inference
-│   ├── results.json                # CV metrics and baseline ablation scores
-│   └── shap_importance.csv         # Top 20 features ranked by mean |SHAP|
+├── Barnala_dataset.csv             # Raw 6-hourly DWLR data for validation
+├── README.md                       # Project documentation
 ├── SIH_DWLR_Improved.ipynb         # Main execution pipeline and research notebook
+└── requirements.txt                # Python environment dependencies
 ├── requirements.txt                # Python environment dependencies
 └── README.md
